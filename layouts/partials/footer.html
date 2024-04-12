@@ -13,15 +13,8 @@
 {{- end }}
 
 
+{{- if (not .Site.Params.disableScrollToTop) }}
 <script>
-    let menu = document.getElementById('menu')
-    if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
-
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener("click", function (e) {
             e.preventDefault();
@@ -43,7 +36,6 @@
 
 </script>
 
-{{- if (not .Site.Params.disableScrollToTop) }}
 <script>
     var mybutton = document.getElementById("top-link");
     window.onscroll = function () {
