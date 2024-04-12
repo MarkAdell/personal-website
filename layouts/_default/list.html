@@ -1,9 +1,5 @@
 {{- define "main" }}
 
-{{- if (and .Site.Params.profileMode.enabled .IsHome) }}
-{{- partial "index_profile.html" . }}
-{{- else }} {{/* if not profileMode */}}
-
 {{- if not .IsHome | and .Title }}
 <header class="page-header">
   {{- partial "breadcrumbs.html" . }}
@@ -14,15 +10,12 @@
   </div>
   {{- end }}
 </header>
-{{- end }}
 
 {{- if .Content }}
 <div class="post-content">
 {{ .Content }}
 </div>
 {{- end }}
-
-
 
 {{- $pages := union .RegularPages .Sections }}
 
@@ -40,7 +33,6 @@
 {{- if $term}}
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
-
 
   <article class="{{ $class }}">
     {{- $isHidden := (.Site.Params.cover.hidden | default .Site.Params.cover.hiddenInList) }}
@@ -87,6 +79,6 @@
 </footer>
 {{- end }}
 
-{{- end }}{{/* end profileMode */}}
+{{- end }} {{- /* end isHome */ -}}
 
 {{- end }}{{- /* end main */ -}}

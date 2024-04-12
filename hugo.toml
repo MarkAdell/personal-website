@@ -36,8 +36,7 @@ Copyright = "Copyright © 2024 Mark Adel. All rights reserved."
   disableScrollToTop = false
   hideSummary = true
 
-  [params.profileMode]
-  enabled = true
+  [params.homePage]
   title = "Mark Adel"
   description = "Hello, my name is Mark. I am a software engineer. This is my personal space where I will share my writings and my projects."
   imageUrl = ""

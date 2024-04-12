@@ -4,8 +4,8 @@
         --gap: 14px;
     }
 
-    /* profile-mode */
-    .profile img {
+    /* home */
+    .home_container img {
         transform: scale(0.85);
     }
 

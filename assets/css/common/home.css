@@ -1,20 +1,20 @@
 .buttons,
-.main .profile {
+.main .home_container {
     display: flex;
     justify-content: center;
 }
 
-.main .profile {
+.main .home_container {
     align-items: center;
     min-height: calc(100vh - var(--header-height) - var(--footer-height) - (var(--gap) * 2));
     text-align: center;
 }
 
-.profile .profile_inner h1 {
+.home_container .home_container_inner h1 {
     padding: 12px 0;
 }
 
-.profile img {
+.home_container img {
     display: inline-table;
     border-radius: 50%;
     pointer-events: none;
@@ -42,7 +42,7 @@
     transform: scale(0.96);
 }
 
-.profile-description {
+.home_container_description {
     margin: 8px;
     color: var(--secondary);
     font-size: 20px;

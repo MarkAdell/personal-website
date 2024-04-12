@@ -1,12 +1,14 @@
-<div class="profile">
-    {{- with .Site.Params.profileMode }}
-    <div class="profile_inner">
+{{- define "main" }}
+
+<div class="home_container">
+    {{- with .Site.Params.homePage }}
+    <div class="home_container_inner">
         {{- if .imageUrl -}}
-        <img src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default " profile image" }}"
+        <img src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default " home image" }}"
             height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
         {{- end }}
         <h1>{{ .title | default $.Site.Title | markdownify }}</h1>
-        <div class="profile-description">{{ .description | markdownify }}</div>
+        <div class="home_container_description">{{ .description | markdownify }}</div>
         {{- partial "social_icons.html" $.Site.Params.socialIcons -}}
 
         {{- with .buttons }}
@@ -21,3 +23,5 @@
     </div>
     {{- end}}
 </div>
+
+{{- end }}
