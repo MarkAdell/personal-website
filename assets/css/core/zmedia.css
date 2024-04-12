@@ -31,14 +31,12 @@
 }
 
 @media (prefers-reduced-motion) {
-    /* terms; profile-mode; post-single; post-entry; post-entry; search; search */
+    /* terms; profile-mode; post-single; post-entry; post-entry; */
     .terms-tags a:active,
     .button:active,
     .share-buttons svg:active,
     .post-entry:active,
-    .top-link,
-    #searchResults .focus,
-    #searchResults li:active {
+    .top-link {
         transform: none;
     }
 }
