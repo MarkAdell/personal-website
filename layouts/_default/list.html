@@ -60,7 +60,7 @@
     </header>
     {{- if (ne (.Param "hideSummary") true) }}
     <section class="entry-content">
-      <p>{{ .Description | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+      <p>{{ .Description | markdownify }}{{ if .Truncated }}...{{ end }}</p>
     </section>
     {{- end }}
     {{- if .Params.image }}
@@ -74,7 +74,7 @@
     </footer>
     {{- end }}
   {{- if .Params.link }}
-  <a class="entry-link" href="{{ .Params.link }}"></a>
+  <a class="entry-link" href="{{ .Params.link }}" target="_blank"></a>
     {{- else }}
     <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
     {{- end }}
