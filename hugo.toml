@@ -1,0 +1,72 @@
+baseURL = ""
+title = "Mark's Portfolio"
+languageCode = "en-us"
+paginate = 5
+Copyright = "Copyright © 2024 Mark Adel. All rights reserved."
+
+[menu]
+  [[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 3
+
+  [[menu.main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 1
+
+  [[menu.main]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 2
+
+[params]
+  author = "Mark Adel"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowShareButtons = false
+  ShowReadingTime = true
+  displayFullLangName = true
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = true
+  HideFooter = false
+  ShowToc = false
+  ShowWordCount = false
+  hideAuthor = true
+
+  [params.profileMode]
+  enabled = true
+  title = "Mark Adel"
+  description = "Hello, my name is Mark. I am a software engineer. This is my personal space where I will share my writings and my projects."
+  imageUrl = ""
+  imageTitle = "my image"
+
+  [params.assets]
+  favicon = "/images/favicon.ico"
+  favicon16x16 = "/images/favicon-16x16.png"
+  favicon32x32 = "/images/favicon-32x32.png"
+  apple_touch_icon = "/images/apple-touch-icon.png"
+  safari_pinned_tab = "/images/apple-touch-icon.png"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/MarkAdell"
+
+  [[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/mark-adel-8116a8ab/"
+  
+  [[params.socialIcons]]
+  name = "dev"
+  url = "https://dev.to/markadel"
+
+  [[params.mainSections]]
+  mainSections = "articles"
+
+enableInlineShortcodes = true
+enableRobotsTXT = true
+enableEmoji = true
+pygmentsUseClasses = true
+
+[minify]
+disableXML = true
