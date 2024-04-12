@@ -2,7 +2,7 @@
 title: PostgreSQL Isolation Levels and Locking Summary
 type: page
 date: 2024-02-16
-topic: sql
+tags: ["SQL", "postgresql"]
 ShowToc: true
 ---
 

@@ -2,7 +2,7 @@
 title: A Practical Example of Using SQL Self Joins
 type: page
 date: 2024-01-03
-topic: sql
+tags: ["SQL"]
 ShowToc: false
 ---
 
