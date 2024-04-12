@@ -1,5 +1,5 @@
-baseURL = ""
-title = "Mark's Portfolio"
+BaseURL = ""
+title = "Mark Adel"
 languageCode = "en-us"
 paginate = 5
 Copyright = "Copyright © 2024 Mark Adel. All rights reserved."
