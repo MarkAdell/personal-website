@@ -1,3 +1,55 @@
 {{- define "main" }}
 
-{{- end }}
+  <header class="section-header">
+    {{- partial "breadcrumbs.html" . }}
+    <h1>{{ .Title }}</h1>
+    {{- if .Description }}
+    <div class="section-header-description">
+        {{ .Description | markdownify }}
+    </div>
+    {{- end }}
+  </header>
+
+  {{- if .Content }}
+    <div class="post-content">
+      {{ .Content }}
+    </div>
+  {{- end }}
+
+  {{- $pages := union .RegularPages .Sections }}
+  {{- $paginator := .Paginate $pages }}
+  {{- $term := .Data.Term }}
+
+  {{- range $index, $page := $paginator.Pages }}
+    <div class="post-entry">
+      {{- if .Params.link }}
+        <a class="post-entry-link" href="{{ .Params.link }}" target="_blank"></a>
+      {{- else }}
+        <a class="post-entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+      {{- end }}
+      <div class="post-entry-title">
+        <p> {{- .Title }} </p>
+        {{- if .Draft }}
+          <sup class="post-entry-draft">[draft]</sup>
+        {{- end }}
+      </div>
+      {{- if not (.Param "hideMeta") }}
+        <div class="post-entry-meta">
+          {{- partial "post_meta.html" . -}}
+        </div>
+      {{- end }}
+    </div>
+  {{- end }}
+
+  {{- if gt $paginator.TotalPages 1 }}
+    <nav class="pagination">
+      {{- if $paginator.HasPrev }}
+        <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">« {{ i18n "prev_page" }}</a>
+      {{- end }}
+      {{- if $paginator.HasNext }}
+        <a class="next" href="{{ $paginator.Next.URL | absURL }}">{{ i18n "next_page" }} »</a>
+      {{- end }}
+    </nav>
+  {{- end }}
+
+{{- end }} {{- /* end main */ -}}

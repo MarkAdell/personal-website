@@ -21,18 +21,13 @@
   {{- $term := .Data.Term }}
 
   {{- range $index, $page := $paginator.Pages }}
-    {{- $class := "post-entry" }}
-    {{- if $term}}
-      {{- $class = "post-entry tag-post-entry" }}
-    {{- end }}
-
-    <div class="{{ $class }}">
+    <div class="post-entry">
       {{- if .Params.link }}
         <a class="post-entry-link" href="{{ .Params.link }}" target="_blank"></a>
       {{- else }}
         <a class="post-entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
       {{- end }}
-      <div class="post-entry-title">        
+      <div class="post-entry-title">
         <p> {{- .Title }} </p>
         {{- if .Draft }}
           <sup class="post-entry-draft">[draft]</sup>
