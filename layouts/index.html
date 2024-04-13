@@ -1,27 +1,17 @@
 {{- define "main" }}
 
-<div class="home_container">
-    {{- with .Site.Params.homePage }}
-    <div class="home_container_inner">
-        {{- if .imageUrl -}}
-        <img src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default " home image" }}"
-            height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
-        {{- end }}
-        <h1>{{ .title | default $.Site.Title | markdownify }}</h1>
-        <div class="home_container_description">{{ .description | markdownify }}</div>
-        {{- partial "social_icons.html" $.Site.Params.socialIcons -}}
-
-        {{- with .buttons }}
-        <div class="buttons">
-            {{- range . }}
-            <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name | title }}">
-                <span class="button-inner">{{ .name | title }}</span>
-            </a>
-            {{- end }}
-        </div>
-        {{- end }}
+<div class="home-container">
+  {{- with .Site.Params.homePage }}
+    <div class="home-container-inner">
+      {{- if .imageUrl -}}
+        <img src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "home image" }}"
+          height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
+      {{- end }}
+      <h1 class="home-container-title">{{ .title | default $.Site.Title | markdownify }}</h1>
+      <p class="home-container-description">{{ .description | markdownify }}</p>
+      {{- partial "social_icons.html" $.Site.Params.socialIcons -}}
     </div>
-    {{- end}}
+  {{- end}}
 </div>
 
 {{- end }}
