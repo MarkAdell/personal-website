@@ -6,19 +6,19 @@ Copyright = "Copyright © 2024 Mark Adel. All rights reserved."
 
 [menu]
   [[menu.main]]
-#   name = "Contact"
-#   url = "/contact/"
-#   weight = 3
+  # name = "Contact"
+  # url = "/contact/"
+  # weight = 3
 
   [[menu.main]]
   name = "Blog"
   url = "/blog/"
   weight = 1
 
-  [[menu.main]]
-  name = "Projects"
-  url = "/projects/"
-  weight = 2
+  # [[menu.main]]
+  # name = "Projects"
+  # url = "/projects/"
+  # weight = 2
 
 [params]
   author = "Mark Adel"
@@ -39,7 +39,7 @@ Copyright = "Copyright © 2024 Mark Adel. All rights reserved."
   title = "Mark Adel"
   description = "Hello, my name is Mark. I am a software engineer. This is my personal space where I will share my writings and my projects."
   imageUrl = ""
-  imageTitle = "my image"
+  imageTitle = ""
 
   [params.assets]
   favicon = "/images/favicon.ico"
@@ -57,7 +57,7 @@ Copyright = "Copyright © 2024 Mark Adel. All rights reserved."
   [[params.socialIcons]]
   name = "linkedin"
   url = "https://www.linkedin.com/in/mark-adel-8116a8ab/"
-  
+
   [[params.socialIcons]]
   name = "dev"
   url = "https://dev.to/markadel"
