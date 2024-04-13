@@ -1,3 +1,19 @@
 {{- define "main" }}
 
+<header class="section-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="section-header-description">
+      {{ .Description | markdownify }}
+  </div>
+  {{- end }}
+</header>
+
+{{- if .Content }}
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+{{- end }}
+
 {{- end }}

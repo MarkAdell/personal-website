@@ -6,9 +6,9 @@ Copyright = "Copyright © 2024 Mark Adel. All rights reserved."
 
 [menu]
   [[menu.main]]
-  # name = "Contact"
-  # url = "/contact/"
-  # weight = 3
+  name = "Contact"
+  url = "/contact/"
+  weight = 3
 
   [[menu.main]]
   name = "Blog"
