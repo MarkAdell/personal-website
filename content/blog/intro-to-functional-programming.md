@@ -631,7 +631,7 @@ function map(array, mapper) {
     return result;
 }
 
-const squaredNumbers = map([1, 2, 3, 4], number => number * number); 
+const squaredNumbers = map([1, 2, 3, 4], number => number * number);
 
 console.log(squaredNumbers); // [1, 4, 9, 16]
 
@@ -771,11 +771,13 @@ Functional programming concepts applied in this class:
 - Creating a **Pure Function** `formatBranches` that accepts the list of branches and returns a new list with the desired transformations.
 - The `formatBranches` function is implemented in a **Declarative** manner, making use of **Higher-order functions**.
 
+# Conclusion
+
 There is still much more to learn about functional programming. Feel free to dive deeper into this beautiful paradigm. The aim of this article was to explain the basic principles that you can start applying today, making your code more maintainable and resistant to bugs.
 
 Please feel free to suggest updates to the article by opening issues in [this](https://github.com/MarkAdell/functional_programming_article/issues) repository.
 
-## References
+# References
 - https://github.com/xgrommx/awesome-functional-programming
 - https://dzone.com/articles/about-immutability-in-object-oriented-programming
 - https://www.youtube.com/watch?v=0if71HOyVjY

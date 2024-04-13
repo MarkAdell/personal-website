@@ -24,7 +24,7 @@ Our bodies need two types of nutrients: **Macronutrients** (carbohydrates, prote
 
 ## Macronutrients
 
-### Carbohydrates 
+### Carbohydrates
 
 [Illustrative Image](https://fspymca.org/wp-content/uploads/2022/03/shutterstock_1797917545.jpg)
 
@@ -131,6 +131,6 @@ Nutrition facts labels provide crucial information about the nutritional content
 
 [Here](https://www.nutritionix.com/food/banana) are the nutrition facts of a banana, try to read and understand them.
 
-## Conclusion
+# Conclusion
 
 Human nutrition is a very dense field. This article merely scratches the surface of all the topics we have covered, but I believe it provides a solid starting point for you to build upon.

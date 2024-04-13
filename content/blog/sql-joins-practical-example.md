@@ -110,7 +110,7 @@ In terms of readability, it is a personal preference. For me, I find both equall
 
 In terms of performance, it depends on many factors. It is always advisable to check the execution plans of your queries.
 
-## Conclusion
+# Conclusion
 
 Whenever you find yourself in a situation where you want to exclude certain rows from your result based on conditions that involve other rows in the same table, SQL self joins can come in handy.
 
