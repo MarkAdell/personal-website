@@ -1,52 +1,52 @@
 .buttons,
 .main .home_container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .main .home_container {
-    align-items: center;
-    min-height: calc(100vh - var(--header-height) - var(--footer-height) - (var(--gap) * 2));
-    text-align: center;
+  align-items: center;
+  min-height: calc(100vh - var(--header-height) - var(--footer-height) - (var(--gap) * 2));
+  text-align: center;
 }
 
 .home_container .home_container_inner h1 {
-    padding: 12px 0;
+  padding: 12px 0;
 }
 
 .home_container img {
-    display: inline-table;
-    border-radius: 50%;
-    pointer-events: none;
+  display: inline-table;
+  border-radius: 50%;
+  pointer-events: none;
 }
 
 .buttons {
-    flex-wrap: wrap;
-    max-width: 400px;
-    margin: 0 auto;
+  flex-wrap: wrap;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .button {
-    background: var(--tertiary);
-    border-radius: var(--radius);
-    margin: 8px;
-    padding: 6px;
-    transition: transform 0.1s;
+  background: var(--tertiary);
+  border-radius: var(--radius);
+  margin: 8px;
+  padding: 6px;
+  transition: transform 0.1s;
 }
 
 .button-inner {
-    padding: 0 8px;
+  padding: 0 8px;
 }
 
 .button:active {
-    transform: scale(0.96);
+  transform: scale(0.96);
 }
 
 .home_container_description {
-    margin: 8px;
-    color: var(--secondary);
-    font-size: 20px;
-    line-height: 1.6;
-    display: --webkit-box;
-    --webkit-box-orient: vertical
+  margin: 8px;
+  color: var(--secondary);
+  font-size: 20px;
+  line-height: 1.6;
+  display: --webkit-box;
+  --webkit-box-orient: vertical
 }
