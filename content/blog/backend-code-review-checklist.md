@@ -1,6 +1,5 @@
 ---
 title: Backend Code Review Checklist
-type: page
 date: 2024-03-30
 tags: ["programming"]
 ShowToc: false

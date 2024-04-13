@@ -1,6 +1,5 @@
 ---
 title: Yet Another Introduction to Functional Programming
-type: page
 date: 2023-07-13
 tags: ["programming", "functional-programming"]
 ShowToc: true

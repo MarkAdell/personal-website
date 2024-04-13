@@ -1,6 +1,5 @@
 ---
 title: PostgreSQL Isolation Levels and Locking Summary
-type: page
 date: 2024-02-16
 tags: ["SQL", "postgresql"]
 ShowToc: true

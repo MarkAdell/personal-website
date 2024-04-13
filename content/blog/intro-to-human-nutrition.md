@@ -1,6 +1,5 @@
 ---
 title: Introduction to Human Nutrition
-type: page
 date: 2024-04-11
 tags: ['nutrition']
 ShowToc: true

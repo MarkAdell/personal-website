@@ -1,6 +1,5 @@
 ---
 title: To-Do Lists for the Rescue
-type: page
 date: 2024-01-18
 topic: productivity
 ShowToc: true

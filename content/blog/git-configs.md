@@ -1,6 +1,5 @@
 ---
 title: Useful Global Git Configurations
-type: page
 date: 2024-03-06
 tags: ["git"]
 ShowToc: false
