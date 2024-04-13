@@ -22,7 +22,7 @@ body:not(.dark) .post-entry:hover {
 }
 
 .post-entry:active {
-  transform: scale(0.99);
+  transform: scale(0.995);
 }
 
 .post-entry-title {

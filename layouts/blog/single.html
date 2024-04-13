@@ -1,46 +1,46 @@
 {{- define "main" }}
 
-  <article class="post-single">
-    <header class="post-header">
-      {{ partial "breadcrumbs.html" . }}
+  <div class="post-single">
+    <div class="post-header">
+      {{- partial "breadcrumbs.html" . }}
       <h1 class="post-title">
         {{ .Title }}
-        {{- if .Draft }}<sup><span class="post-entry-draft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
+        {{- if .Draft }}<sup class="post-entry-draft">[draft]</sup>{{- end }}
       </h1>
       {{- if and (ne (.Param "hideSummary") true) .Description }}
-      <div class="post-description">
-        {{ .Description }}
-      </div>
+        <div class="post-description">
+          {{ .Description }}
+        </div>
       {{- end }}
       {{- if not (.Param "hideMeta") }}
-      <div class="post-meta">
-        {{- partial "post_meta.html" . -}}
-      </div>
+        <div class="post-meta">
+          {{ partial "post_meta.html" . }}
+        </div>
       {{- end }}
-    </header>
+    </div>
     {{- if (.Param "ShowToc") }}
-    {{- partial "toc.html" . }}
+      {{- partial "toc.html" . }}
     {{- end }}
 
     {{- if .Content }}
-    <div class="post-content">
-      {{ .Content }}
-    </div>
+      <div class="post-content">
+        {{ .Content }}
+      </div>
     {{- end }}
 
-    <footer class="post-footer">
+    <div class="post-footer">
       {{- if .Params.tags }}
-      <ul class="post-tags">
-        {{- range ($.GetTerms "tags") }}
-        <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
-        {{- end }}
-      </ul>
+        <ul class="post-tags">
+          {{- range ($.GetTerms "tags") }}
+            <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+          {{- end }}
+        </ul>
       {{- end }}
-    </footer>
+    </div>
 
     {{- if (.Param "comments") }}
-    {{- partial "comments.html" . }}
+      {{- partial "comments.html" . }}
     {{- end }}
-  </article>
+  </div>
 
 {{- end }}{{/* end main */}}
