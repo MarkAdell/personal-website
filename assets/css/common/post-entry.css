@@ -26,7 +26,7 @@
 }
 
 
-.tag-entry .entry-cover {
+.tag-post-entry {
     display: none;
 }
 
@@ -88,25 +88,7 @@
     bottom: 0;
 }
 
-.entry-cover,
 .entry-isdraft {
     font-size: 14px;
     color: var(--secondary);
-}
-
-.entry-cover {
-    margin-bottom: var(--gap);
-    text-align: center;
-}
-
-.entry-cover img {
-    border-radius: var(--radius);
-    pointer-events: none;
-    width: 100%;
-    height: auto;
-}
-
-.entry-cover a {
-    color: var(--secondary);
-    box-shadow: 0 1px 0 var(--primary);
 }
