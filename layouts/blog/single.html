@@ -5,9 +5,9 @@
       {{ partial "breadcrumbs.html" . }}
       <h1 class="post-title">
         {{ .Title }}
-        {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
+        {{- if .Draft }}<sup><span class="post-entry-draft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
       </h1>
-      {{- if .Description }}
+      {{- if and (ne (.Param "hideSummary") true) .Description }}
       <div class="post-description">
         {{ .Description }}
       </div>
