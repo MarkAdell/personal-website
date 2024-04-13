@@ -1,3 +1,16 @@
 {{- define "main" }}
 
+{{ range .Pages }}
+<div style="border:1px solid black; padding:10px; margin-bottom:10px;">
+    <div style="text-align:center;">
+        <img src="{{ .Params.image }}" alt="{{ .Title }}" style="width:100%; height:auto;">
+    </div>
+    <div>
+        <h2>{{ .Title }}</h2>
+        <p>{{ .Description | markdownify }}</p>
+        <a href="{{ .Params.link }}">Project Link</a>
+    </div>
+</div>
+{{ end }}
+
 {{- end }}
