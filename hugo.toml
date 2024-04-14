@@ -4,6 +4,10 @@ languageCode = "en-us"
 paginate = 20
 Copyright = "Copyright © 2024 Mark Adel. All rights reserved."
 
+[services]
+  [services.googleAnalytics]
+    ID = 'G-KV30R9H9HV'
+
 [menu]
   [[menu.main]]
   name = "Contact"
