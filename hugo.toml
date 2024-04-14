@@ -1,4 +1,4 @@
-BaseURL = ""
+BaseURL = "https://markadell.github.io/personal-website/"
 title = "Mark Adel"
 languageCode = "en-us"
 paginate = 20
