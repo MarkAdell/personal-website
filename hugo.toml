@@ -42,11 +42,11 @@ Copyright = "Copyright © 2024 Mark Adel. All rights reserved."
   imageTitle = ""
 
   [params.assets]
-  favicon = "/images/favicon.ico"
-  favicon16x16 = "/images/favicon-16x16.png"
-  favicon32x32 = "/images/favicon-32x32.png"
-  apple_touch_icon = "/images/apple-touch-icon.png"
-  safari_pinned_tab = "/images/apple-touch-icon.png"
+  favicon = "{{ .Site.BaseURL }}/images/favicon.ico"
+  favicon16x16 = "{{ .Site.BaseURL }}/images/favicon-16x16.png"
+  favicon32x32 = "{{ .Site.BaseURL }}/images/favicon-32x32.png"
+  apple_touch_icon = "{{ .Site.BaseURL }}/images/apple-touch-icon.png"
+  safari_pinned_tab = "{{ .Site.BaseURL }}/images/apple-touch-icon.png"
   disableHLJS = true
 
 
