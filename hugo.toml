@@ -44,16 +44,16 @@ Copyright = "Copyright © 2024 Mark Adel. All rights reserved."
 
   [params.homePage]
   title = "Mark Adel"
-  description = "Hello, my name is Mark. I am a software engineer. This is my personal space where I will share my writings and my projects."
+  description = "Hello there! I'm Mark, a software engineer. This is my personal space where I will share my writings and my projects."
   imageUrl = ""
   imageTitle = ""
 
   [params.assets]
-  favicon = "https://markadell.me/images/favicon.ico"
-  favicon16x16 = "https://markadell.me/images/favicon-16x16.png"
-  favicon32x32 = "https://markadell.me/images/favicon-32x32.png"
-  apple_touch_icon = "https://markadell.me/images/apple-touch-icon.png"
-  safari_pinned_tab = "https://markadell.me/images/apple-touch-icon.png"
+  favicon = "https://markadel.me/images/favicon.ico"
+  favicon16x16 = "https://markadel.me/images/favicon-16x16.png"
+  favicon32x32 = "https://markadel.me/images/favicon-32x32.png"
+  apple_touch_icon = "https://markadel.me/images/apple-touch-icon.png"
+  safari_pinned_tab = "https://markadel.me/images/apple-touch-icon.png"
   disableHLJS = true
 
 
