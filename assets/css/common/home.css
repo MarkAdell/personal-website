@@ -21,6 +21,5 @@
   color: var(--secondary);
   font-size: 20px;
   line-height: 1.6;
-  display: --webkit-box;
   --webkit-box-orient: vertical
 }
