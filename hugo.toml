@@ -1,4 +1,4 @@
-baseURL = "https://markadell.github.io/personal-website/"
+baseURL = "https://markadell.me/"
 title = "Mark Adel"
 languageCode = "en-us"
 paginate = 20
@@ -49,11 +49,11 @@ Copyright = "Copyright © 2024 Mark Adel. All rights reserved."
   imageTitle = ""
 
   [params.assets]
-  favicon = "https://markadell.github.io/personal-website/images/favicon.ico"
-  favicon16x16 = "https://markadell.github.io/personal-website/images/favicon-16x16.png"
-  favicon32x32 = "https://markadell.github.io/personal-website/images/favicon-32x32.png"
-  apple_touch_icon = "https://markadell.github.io/personal-website/images/apple-touch-icon.png"
-  safari_pinned_tab = "https://markadell.github.io/personal-website/images/apple-touch-icon.png"
+  favicon = "https://markadell.me/images/favicon.ico"
+  favicon16x16 = "https://markadell.me/images/favicon-16x16.png"
+  favicon32x32 = "https://markadell.me/images/favicon-32x32.png"
+  apple_touch_icon = "https://markadell.me/images/apple-touch-icon.png"
+  safari_pinned_tab = "https://markadell.me/images/apple-touch-icon.png"
   disableHLJS = true
 
 
