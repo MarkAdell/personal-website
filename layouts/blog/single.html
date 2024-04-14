@@ -38,8 +38,8 @@
       {{- end }}
     </div>
 
-    {{- if (.Param "comments") }}
-      {{- partial "comments.html" . }}
+    {{- if (.Param "enableComments") }}
+      {{- partial "disqus.html" . }}
     {{- end }}
   </div>
 
