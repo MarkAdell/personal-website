@@ -6,7 +6,7 @@ Copyright = "Copyright © 2024 Mark Adel. All rights reserved."
 
 [services]
   [services.googleAnalytics]
-    ID = 'G-KV30R9H9HV'
+    ID = 'G-81JKX44REM'
   [services.disqus]
     shortname = 'markadel'
 
