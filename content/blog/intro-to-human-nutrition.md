@@ -30,7 +30,7 @@ Our bodies need two types of nutrients: **Macronutrients** (carbohydrates, prote
 
 **Complex Carbs:** They consist of long chains of sugar molecules that take longer for the body to digest. Accordingly, they provide energy to the body gradually and over longer amounts of time. They are also rich in fiber and contain high levels of vitamins and minerals. Complex carbohydrates are found in whole grains such as brown rice, oats, and in starchy vegetables, fruits, and legumes.
 
-**Simple Carbs:** They consist of short chains of sugar molecules that the body can digest quickly, resulting in a rapid spike in blood sugar levels, quick but temporary increase in energy levels, a feeling of hunger after a short amount of time. They are found in refined sugars, such as table sugar, and in food and beverage products with added sugar such as soft drinks, candies, pastries, and more.
+**Simple Carbs:** They consist of short chains of sugar molecules that the body can digest quickly, resulting in a rapid spike in blood sugar levels, quick but temporary increase in energy levels, a feeling of hunger after a short amount of time. They are found in refined sugars, such as table sugar, and in food and beverage products with added sugar such as soft drinks, candies, pastries.
 
 Simple carbs are also present in natural foods such as fruits and milk. However, these foods usually contain other essential nutrients such as vitamins, minerals and dietary fiber. The fiber in fruits can help slow the absorption of sugar, which can prevent spikes in blood sugar levels. This makes them among the healthiest sources of simple carbohydrates.
 
@@ -44,14 +44,14 @@ Simple carbs are also present in natural foods such as fruits and milk. However,
 
 [Illustrative Image](https://images.ctfassets.net/eexbcii1ci83/4NrrGiBSFGP15kYIpzIFFi/25f0b446ff9b024dd096b449d2ec836e/Types_of_Dietary_Fats.png)
 
-**Saturated Fats:** It is a type of fat mainly found in animal foods such as red meat, and chicken skin, as well as in dairy products like butter, cream, whole milk, and in certain oils such as palm oil. Saturated fats should not be consumed excessively because they can raise LDL cholesterol levels in the blood (bad cholesterol), increasing the risk of heart disease, so they should be consumed in healthy, moderate amounts.
+**Saturated Fats:** It is a type of fat mainly found in animal foods such as red meat, chicken skin, dairy products like butter, cream, whole milk, and in certain oils such as palm oil. Saturated fats raise LDL cholesterol levels in the blood (bad cholesterol), increasing the risk of heart disease, so they should be consumed in healthy, moderate amounts.
 
-**Unsaturated Fats:** It is another type of fat mainly found in plant-based foods such as vegetable oils, avocados, and nuts. These fats are considered healthy when consumed in reasonable amounts because they help lower LDL cholesterol levels and improve heart health. Unsaturated fats are divided into two types:
+**Unsaturated Fats:** It is another type of fat mainly found in plant-based foods such as vegetable oils, avocados, and nuts. These fats are considered healthy when consumed in reasonable amounts because they help lower LDL cholesterol levels and provide other health benefits. Unsaturated fats are divided into two types:
 
 - **Monounsaturated Fats:** They are found in avocados, nuts, and vegetable oils such as olive oil and canola oil. Monounsaturated fats are rich in omega-9 fatty acid, which has several health benefits.
-- **Polyunsaturated Fats:** They are found in fatty fish and vegetable oils such as corn oil and sunflower oil. Polyunsaturated fats are rich in omega-6 and omega-3 fatty acids, both of which the body needs, but it is important to consume them in reasonable and balanced amounts (aim for a 1:1 to 4:1 ratio of omega-6 to omega-3 fatty acids in your diet), so avoid consuming corn or sunflower oil in large quantities because it contains a large amount of omega-6. And don’t ignore including foods that are rich in omega-3 such as fatty fish in your diet.
+- **Polyunsaturated Fats:** They are found in fatty fish and vegetable oils such as corn oil and sunflower oil. Polyunsaturated fats are rich in omega-6 and omega-3 fatty acids, both of which the body needs, but it is important to consume them in a balanced ratio (aim for a 1:1 to 4:1 ratio of omega-6 to omega-3 fatty acids in your diet). So avoid consuming corn or sunflower oil in large quantities because it contains a large amount of omega-6. And don't ignore including foods that are rich in omega-3 such as fatty fish in your diet.
 
-**Trans Fats:** It is a type of fat produced by a process called hydrogenation. They are mainly found in processed foods, fast food, and chemically treated vegetable oils. They are best avoided completely as they raise LDL cholesterol levels in the blood and increase the risk of heart disease.
+**Trans Fats:** It is a type of fat produced by a process called hydrogenation. They are mainly found in processed foods, fast food, and chemically treated vegetable oils. They are best avoided completely as they are known to raise LDL cholesterol levels (bad cholesterol) in the blood, and lower HDL cholesterol levels (good cholesterol). This can increase the risk of heart disease.
 
 ## Micronutrients
 
@@ -67,9 +67,9 @@ Simple carbs are also present in natural foods such as fruits and milk. However,
 
 **Iron:** An essential mineral found in foods such as red meat and white meat, beans and nuts. Iron plays a crucial role in blood oxygen transport, energy production, and immune function.
 
-**Magnesium:** An essential mineral found in foods like nuts, seeds, whole grains, and leafy green vegetables. Magnesium is crucial for various bodily functions, including muscle and nerve function, bone health, energy production and maintaining a healthy heart rhythm.
-
 **Zinc:** An essential mineral found in foods such as red meat and white meat, beans and nuts. Zinc is crucial for various bodily functions, including immune system support, wound healing, cell growth and maintaining healthy skin and vision.
+
+**Magnesium:** An essential mineral found in foods like nuts, seeds, whole grains, and leafy green vegetables. Magnesium is crucial for various bodily functions, including muscle and nerve function, bone health, energy production and maintaining a healthy heart rhythm.
 
 **Selenium, copper, manganese and chromium:** They are involved in many other vital processes.
 
@@ -79,7 +79,7 @@ Simple carbs are also present in natural foods such as fruits and milk. However,
 - **Food Portions:** Create a customized food plan that fits your health goal, whether it is weight loss, weight gain, or weight maintenance. It is worth noting that the primary factor determining weight gain or loss is whether you consume more or fewer calories than what your body burns.
 - **Carbohydrates:** Choose complex carbohydrates such as whole grains, fruits, and legumes instead of simple carbohydrates such as refined sugar (table sugar) and products with added sugar.
 - **Fats:** It is preferable to consume a higher proportion of unsaturated fats that can be found in nuts, fish, and vegetable oils than saturated fats found in red meat, chicken skin, butter, and full-fat dairy products. According to the American Heart Association, saturated fat should account for no more than 5% to 6% of your daily calories intake. Avoid trans fats found in processed products and fast food.
-- **Proteins:** Try to eat a variety of protein sources including plant-based proteins such as beans, peas, and soy products as well as animal-based proteins such as white and red meat, eggs, and dairy products. Please note that while red meat is a valuable source of nutrients like iron, zinc and vitamin B, it shouldn not be consumed exclusively due to its higher levels of saturated fats and cholesterol compared to white meat.
+- **Proteins:** Try to eat a variety of protein sources including plant-based proteins such as beans, peas, and soy products as well as animal-based proteins such as white and red meat, eggs, and dairy products. Please note that while red meat is a valuable source of nutrients like iron, zinc and vitamin B, it should not be consumed exclusively due to its higher levels of saturated fats and cholesterol compared to white meat.
 - **Salt:** The healthy daily salt intake is approximately 5 to 7 grams.
 - **Nutritional Facts:** Always read the nutritional facts on product packages to learn about the amounts and types of nutrients in the product and determine whether the product is healthy.
 - **Water:** Be sure to drink enough water every day, the recommended amount is 3 to 5 liters. Water is essential for all body functions including digestion, absorption, and transportation of nutrients.
@@ -136,7 +136,6 @@ Nutrition facts labels provide crucial information about the nutritional content
 Human nutrition is a very dense field. This article merely scratches the surface of all the topics we have covered, but I believe it provides a solid starting point for you to build upon.
 
 # References
-
 - https://en.wikipedia.org/wiki/Human_nutrition
 - https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/
 - https://paleoleap.com/many-dangers-of-excess-pufa-consumption/
