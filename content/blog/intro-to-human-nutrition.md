@@ -28,9 +28,9 @@ Our bodies need two types of nutrients: **Macronutrients** (carbohydrates, prote
 
 [Illustrative Image](https://fspymca.org/wp-content/uploads/2022/03/shutterstock_1797917545.jpg)
 
-**Complex Carbs:** They consist of long chains of sugar molecules that take longer for the body to digest. Accordingly, they provide energy to the body gradually and over longer amounts of time. They are also rich in fiber and contain high levels of vitamins and minerals. Complex carbohydrates are found in whole grains such as brown rice, oats, and in legumes.
+**Complex Carbs:** They consist of long chains of sugar molecules that take longer for the body to digest. Accordingly, they provide energy to the body gradually and over longer amounts of time. They are also rich in fiber and contain high levels of vitamins and minerals. Complex carbohydrates are found in whole grains such as brown rice, oats, and in starchy vegetables, fruits, and legumes.
 
-**Simple Carbs:** They consist of short chains of sugar molecules that the body can digest quickly, resulting in a quick but temporary increase in energy levels, a feeling of hunger after a short amount of time, and a spike in blood sugar levels. They are found in refined sugars, such as table sugar, and in food and beverage products with added sugar.
+**Simple Carbs:** They consist of short chains of sugar molecules that the body can digest quickly, resulting in a rapid spike in blood sugar levels, quick but temporary increase in energy levels, a feeling of hunger after a short amount of time. They are found in refined sugars, such as table sugar, and in food and beverage products with added sugar such as soft drinks, candies, pastries, and more.
 
 Simple carbs are also present in natural foods such as fruits and milk. However, these foods usually contain other essential nutrients, including fiber, which can slow down the rise of blood sugar levels. This makes them among the healthiest sources of simple carbohydrates.
 
@@ -77,7 +77,7 @@ Simple carbs are also present in natural foods such as fruits and milk. However,
 
 - **Integrated Diet:** Your diet should be complete and balanced. That is to say, it should contain healthy proportions of macronutrients (carbohydrates, proteins, and fats).
 - **Food Portions:** Create a customized food plan that fits your health goal, whether it is weight loss, weight gain, or weight maintenance. It is worth noting that the primary factor determining weight gain or loss is whether you consume more or fewer calories than what your body burns.
-- **Carbohydrates:** Choose complex carbohydrates such as whole grains, fruits, and vegetables instead of simple carbohydrates such as refined sugar (table sugar) and products with added sugar.
+- **Carbohydrates:** Choose complex carbohydrates such as whole grains, fruits, and legumes instead of simple carbohydrates such as refined sugar (table sugar) and products with added sugar.
 - **Fats:** It is preferable to consume a higher proportion of unsaturated fats that can be found in nuts, fish, and vegetable oils than saturated fats found in red meat, chicken skin, butter, and full-fat dairy products. According to the American Heart Association, saturated fat should account for no more than 5% to 6% of your daily calories intake. Avoid trans fats found in processed products and fast food.
 - **Proteins:** Try to eat a variety of protein sources including plant-based proteins such as beans, peas, and soy products as well as animal proteins such as white meat, fish, eggs, and dairy products.
 - **Salt:** The healthy daily salt intake is approximately 5 to 7 grams.
