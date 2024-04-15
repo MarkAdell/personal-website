@@ -7,7 +7,7 @@ ShowToc: true
 
 For the past 8 months, I have been following a diet and exercising in order to lose weight and develop healthy eating habits. I have achieved great results so far and learned many things during this period, especially about human nutrition.
 
-I decided to write this article, which serves as a gentle introduction to human nutrition. It was initially a reference that I prepared for myself, but I quickly realized that other people could make use of it. So I continued improving it and made sure it would be suitable for everyone, regardless of their level of knowledge about this subject. This article provides a solid starting point for you to build upon.
+I decided to write this article, which serves as a gentle introduction to human nutrition. It was initially a reference that I prepared for myself, but I quickly realized that other people could make use of it. So I continued improving it and made sure it would be suitable for everyone, regardless of their level of knowledge about this subject.
 
 The information in this article is collected from several resources, which I have verified for correctness to the best of my abilities.
 
