@@ -88,7 +88,7 @@ Simple carbs are also present in natural foods such as fruits and milk. However,
   - **Cardio:** Examples include speed walking, jogging and swimming. It promotes a healthy heart and lungs, helps improve the circulatory system, and increases metabolism, helping you achieve your weight loss goals and improving overall fitness.
   - **Resistance Training:** Resistance training involves weight lifting, either using body weight or gym equipment. It helps build and strengthen muscles and has many other benefits. It becomes even more important during weight loss, as it helps maintain or increase muscle mass. Without resistance training, muscle mass may decrease, which is unhealthy. The goal is to lose fat while preserving muscle.
 
-## How Can You Calculate the Macronutrients You Need per Day?
+## How to Calculate Daily Macronutrients Needs?
 
 To calculate the required amount of macronutrients you need per day, you can follow these steps:
 
