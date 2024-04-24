@@ -1,7 +1,7 @@
 ---
 title: Diagnose Before You Prescribe
 date: 2024-04-24
-tags: ["programming", "software-engineering"]
+tags: ["programming", "software engineering"]
 ShowToc: false
 ---
 
