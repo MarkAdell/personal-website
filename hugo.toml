@@ -11,20 +11,26 @@ Copyright = "Copyright © 2024 Mark Adel. All rights reserved."
     shortname = 'markadel'
 
 [menu]
-  [[menu.main]]
-  name = "Contact"
-  url = "/contact/"
-  weight = 3
 
   [[menu.main]]
   name = "Blog"
   url = "/blog/"
   weight = 1
 
+  [[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 3
+
+  [[menu.main]]
+  name = "Jottings"
+  url = "/jottings/"
+  weight = 2
+
   # [[menu.main]]
   # name = "Projects"
   # url = "/projects/"
-  # weight = 2
+  # weight = 3
 
 [params]
   author = "Mark Adel"
@@ -44,7 +50,7 @@ Copyright = "Copyright © 2024 Mark Adel. All rights reserved."
 
   [params.homePage]
   title = "Mark Adel"
-  description = "Hello there! I'm Mark, a software engineer based in Egypt. This is my little corner of the internet where I will be sharing my writings and my projects."
+  description = "Hello there! I'm Mark, a software engineer based in Egypt. This is my little corner of the internet where I will be sharing my thoughts and experiences."
   imageUrl = ""
   imageTitle = ""
 
