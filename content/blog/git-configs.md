@@ -3,6 +3,7 @@ title: Useful Global Git Configurations
 date: 2024-03-06
 tags: ["git"]
 ShowToc: false
+showTopProgressBar: true
 ---
 
 In this post, I'm going to share with you six global Git configurations that I use and find incredibly useful.

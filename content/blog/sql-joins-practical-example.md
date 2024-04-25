@@ -3,6 +3,7 @@ title: A Practical Example of Using SQL Self Joins
 date: 2024-01-03
 tags: ["SQL"]
 ShowToc: false
+showTopProgressBar: true
 ---
 
 ## Problem

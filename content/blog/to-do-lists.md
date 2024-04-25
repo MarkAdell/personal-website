@@ -3,6 +3,7 @@ title: To-Do Lists for the Rescue
 date: 2024-01-18
 topic: productivity
 ShowToc: true
+showTopProgressBar: true
 ---
 
 In this article, I'm going to share my personal experience about the benefits of using to-do lists and share some tips that I developed over time which helped me use my to-do lists effectively.

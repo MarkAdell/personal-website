@@ -3,6 +3,7 @@ title: PostgreSQL Isolation Levels and Locking Summary
 date: 2024-02-16
 tags: ["SQL", "postgresql"]
 ShowToc: true
+showTopProgressBar: true
 ---
 
 I initially prepared this summary for my myself. However, I thought other people would find it useful, so I refined it as necessary and decided to share it.
@@ -113,10 +114,10 @@ Please note that normal `SELECT` statements under an isolation level like `READ 
 - **`SELECT .. FOR SHARE` (shared lock)**
     - Blocks concurrent transactions on the same rows from performing `SELECT FOR UPDATE`, `SELECT FOR NO KEY UPDATE`, `UPDATE`, and `DELETE`.
     - Use when you want to lock selected rows against all concurrent updates and from exclusive locks, while allowing other transactions to acquire `SELECT FOR SHARE` or `SELECT FOR KEY SHARE` locks.
-- **`SELECT .. FOR KEY SHARE` (shared lock)** 
+- **`SELECT .. FOR KEY SHARE` (shared lock)**
     - Blocks concurrent transactions on the same rows from performing `SELECT FOR UPDATE`, `DELETE`, and any `UPDATE` that changes key values (such as primary keys).
     - Use when you want to lock selected rows against concurrent updates that change key values and from exclusive locks, while allowing other transactions to acquire any type of shared lock.
-    
+
 #### Deadlocks
 
 A deadlock happens when two or more transactions are waiting for each other to release locks. PostgreSQL periodically checks for deadlocks and handles them.
@@ -143,9 +144,9 @@ CREATE TABLE products (
 When updating a row, increment the version and include it in the WHERE clause:
 
 ```sql
-UPDATE 
-    products 
-SET 
+UPDATE
+    products
+SET
     price = 10.0,
     version = version + 1
 WHERE

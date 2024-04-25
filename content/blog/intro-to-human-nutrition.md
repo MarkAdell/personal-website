@@ -3,6 +3,7 @@ title: Introduction to Human Nutrition
 date: 2024-04-11
 tags: ['nutrition']
 ShowToc: true
+showTopProgressBar: true
 ---
 
 For the past 8 months, I have been following a diet and exercising in order to lose weight and develop healthy eating habits. I have achieved great results so far and learned many things during this period, especially about human nutrition.

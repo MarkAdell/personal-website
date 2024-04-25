@@ -6,6 +6,16 @@
   padding: var(--gap);
 }
 
+.progress-bar {
+  position: fixed;
+  background-color: var(--progress-bar);
+  left: 0;
+  top: 0;
+  height: 4px;
+  width: var(--scroll);
+  z-index: 60;
+}
+
 .page-header h1 {
   font-size: 40px;
 }

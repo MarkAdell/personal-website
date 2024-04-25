@@ -66,6 +66,20 @@
 </script>
 {{- end }}
 
+{{- if .Param "showTopProgressBar" -}}
+<script>
+  var progressBar = document.querySelector(".progress-bar");
+  if (progressBar) {
+      window.addEventListener("scroll", function(event) {
+          var scrollTop =  document.documentElement.scrollTop || document.body.scrollTop;
+          var scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+          var scrollPercentage = (scrollTop / scrollHeight * 100) + "%";
+          progressBar.style.setProperty("--scroll", scrollPercentage);
+      }, false);
+  }
+</script>
+{{- end }}
+
 {{- if (and (eq .Kind "page") (.Param "ShowCodeCopyButtons")) }}
 <script>
     document.querySelectorAll('pre > code').forEach((codeblock) => {

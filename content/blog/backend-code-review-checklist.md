@@ -3,6 +3,7 @@ title: Backend Code Review Checklist
 date: 2024-03-30
 tags: ["programming"]
 ShowToc: false
+showTopProgressBar: true
 ---
 
 I have put together this checklist, which I believe will be applicable to most backend code reviews.

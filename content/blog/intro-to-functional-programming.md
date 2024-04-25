@@ -3,6 +3,7 @@ title: Yet Another Introduction to Functional Programming
 date: 2023-07-13
 tags: ["programming", "functional-programming"]
 ShowToc: true
+showTopProgressBar: true
 ---
 
 In this article, we will explore the fundamental principles of functional programming that you can utilize in your day-to-day work, regardless of the programming language you use.
