@@ -1,6 +1,6 @@
 ---
 title: Buy a gas leak alarm
-date: 2024-05-03
+date: 2024-03-05
 tags: ["misc"]
 ShowToc: false
 ---
