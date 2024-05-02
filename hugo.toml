@@ -46,7 +46,7 @@ Copyright = "Copyright © 2024 Mark Adel. All rights reserved."
   disableScrollToTop = false
   hideSummary = true
   disableFingerprinting = false
-  enableComments = true
+  enableComments = false
 
   [params.homePage]
   title = "Mark Adel"
