@@ -60,7 +60,7 @@ Simple carbs are also present in natural foods such as fruits and milk. However,
 
 **Fat-Soluble Vitamins:** They are vitamins A, D, E, and K. These vitamins are stored in body fat and do not need to be consumed daily. They play an important role in many vital functions, including skin health, vision, and the regulation of fat storage.
 
-**Water-Soluble Vitamins:** These are vitamins C and B. Unlike Fat-Soluble Vitamins, these vitamins are not stored in the body and thus need to be consumed daily. They are involved in many vital processes, including energy generation, immune system function, and red blood cell formation. Water-soluble vitamins also help break down proteins, fats, and carbohydrates for energy.
+**Water-Soluble Vitamins:** These are vitamins C and B. Unlike Fat-Soluble Vitamins, these vitamins are not stored in the body and thus need to be consumed daily. They are involved in many vital processes, including energy generation, immune system function, and red blood cell formation.
 
 ### Minerals
 
