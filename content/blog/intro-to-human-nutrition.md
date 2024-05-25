@@ -76,7 +76,7 @@ Simple carbs are also present in natural foods such as fruits and milk. However,
 
 ## General Tips for a Healthy Diet
 
-- **Integrated Diet:** Your diet should be complete and balanced. That is to say, it should contain healthy proportions of macronutrients (carbohydrates, proteins, and fats).
+- **Integrated Diet:** Your diet should be complete and balanced. That is to say, it should contain adequate proportions of macronutrients (carbohydrates, proteins, and fats).
 - **Food Portions:** Create a customized food plan that fits your health goal, whether it is weight loss, weight gain, or weight maintenance. It is worth noting that the primary factor determining weight gain or loss is whether you consume more or fewer calories than what your body burns.
 - **Carbohydrates:** Choose complex carbohydrates such as whole grains, fruits, and legumes instead of simple carbohydrates such as refined sugar (table sugar) and products with added sugar.
 - **Fats:** It is preferable to consume a higher proportion of unsaturated fats that can be found in nuts, fish, and vegetable oils than saturated fats found in red meat, chicken skin, butter, and full-fat dairy products. According to the American Heart Association, saturated fat should account for no more than 5% to 6% of your daily calories intake. Avoid trans fats found in processed products and fast food.
