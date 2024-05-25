@@ -45,7 +45,7 @@ Simple carbs are also present in natural foods such as fruits and milk. However,
 
 [Illustrative Image](https://images.ctfassets.net/eexbcii1ci83/4NrrGiBSFGP15kYIpzIFFi/25f0b446ff9b024dd096b449d2ec836e/Types_of_Dietary_Fats.png)
 
-**Saturated Fats:** It is a type of fat mainly found in animal foods such as red meat, chicken skin, dairy products like butter, cream, whole milk, and in certain oils such as palm oil. Saturated fats raise LDL cholesterol levels in the blood (bad cholesterol), increasing the risk of heart disease, so they should be consumed in healthy, moderate amounts.
+**Saturated Fats:** It is a type of fat mainly found in animal foods such as red meat, chicken skin, dairy products like butter, cream, whole milk, and in certain oils such as palm, coconut oil. Saturated fats raise LDL cholesterol levels in the blood (bad cholesterol), increasing the risk of heart disease, so they should be consumed in healthy, moderate amounts.
 
 **Unsaturated Fats:** It is another type of fat mainly found in plant-based foods such as vegetable oils, avocados, and nuts. These fats are considered healthy when consumed in reasonable amounts because they help lower LDL cholesterol levels and provide other health benefits. Unsaturated fats are divided into two types:
 
