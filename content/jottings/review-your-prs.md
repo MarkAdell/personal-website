@@ -1,7 +1,7 @@
 ---
 title: Review your own PRs
-date: 2024-05-02
-tags: ["misc"]
+date: 2024-07-23
+tags: ["software engineering"]
 ShowToc: false
 ---
 
