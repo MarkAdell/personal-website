@@ -4,7 +4,7 @@ date: 2024-09-14
 tags: ["misc"]
 ---
 
-Following are the life lessons I gathered while rewatching *Ted Lasso* Apple TV show.
+Following are the life lessons I collected while re-watching *Ted Lasso* Apple TV show.
 
 - Get comfortable being uncomfortable.
 - Don't take things personally.
