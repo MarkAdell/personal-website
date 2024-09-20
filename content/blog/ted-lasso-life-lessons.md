@@ -15,12 +15,13 @@ Following are the life lessons I collected while re-watching *Ted Lasso* Apple T
 - All people are different people.
 - Doing the right thing is never the wrong thing.
 - Don't let the wisdom of age be wasted on you.
-- There are situations where friends only need your support, not your advice.
 - Be curious, not judgmental.
+- What you think about yourself matters much more about what other people think about you.
 - Everyone can benefit from therapy.
 - Truth will set you free, but first, it will piss you off.
 - The fact that we are paid to do our jobs doesn't mean that we don't care about it.
 - The best way to deal with people trying to hurt you is to make sure they know that their actions don't affect you.
+- There are situations where friends only need your support, not your advice.
 - It is our choices that show what we truly are, far more than our abilities.
 - A good mentor hopes you will move on, a great mentor knows you will.
 - Opening up and expressing your emotions is important when you have conflicts or disagreements with people who matter to you.
