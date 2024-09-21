@@ -17,6 +17,7 @@ Following are the life lessons I collected while re-watching *Ted Lasso* Apple T
 - Don't let the wisdom of age be wasted on you.
 - Be curious, not judgmental.
 - What you think about yourself matters much more about what other people think about you.
+- Everyone is fighting a battle you know nothing about.
 - Everyone can benefit from therapy.
 - Truth will set you free, but first, it will piss you off.
 - The fact that we are paid to do our jobs doesn't mean that we don't care about it.
