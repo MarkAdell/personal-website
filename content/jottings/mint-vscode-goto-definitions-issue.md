@@ -1,5 +1,5 @@
 ---
-title: Fixing the Go to Definition Issue in Visual Studio Code on Linux Mint
+title: Fixing VS Code Go to Definition Issue on Linux Mint
 date: 2024-10-11
 tags: ["misc"]
 ShowToc: false
