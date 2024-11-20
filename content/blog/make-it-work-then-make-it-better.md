@@ -45,7 +45,7 @@ Here are some key areas to focus on:
 
 **Performance**: Ensuring that the code is efficient and scalable as needed.
 
-# Conclusion
+## Conclusion
 
 "Make it work, then make it better" encourages developers to focus on solving problems pragmatically before striving for perfection. Write the messy first draft, but don't forget to come back and polish it into a masterpiece!
 
