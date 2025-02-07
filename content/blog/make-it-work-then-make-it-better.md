@@ -6,7 +6,7 @@ ShowToc: false
 showTopProgressBar: true
 ---
 
-In software engineering, the principle "Make it work, then make it better" highlights a practical yet disciplined approach to building high quality software. It consists of two phases: 
+In software engineering, "Make it work, then make it better" is a pragmatic approach to development. It stresses the importance of first building a working solution before refining and optimizing it. It consists of two phases: 
 
 1. The first phase focuses on ensuring the software works as intended, delivering the expected results and meeting the requirements. At this stage, we make the "computer" understand the code.
 2. The second phase shifts the focus to humans, refactoring the code for your future self and fellow developers who will read, use, and maintain it.
