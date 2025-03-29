@@ -1,5 +1,5 @@
 ---
-title: Summaries of Chapters 4–8 from Modern Software Engineering
+title: Modern Software Engineering: Ch. 4–8 Summary
 date: 2025-03-28
 tags: ["software engineering"]
 ShowToc: false
