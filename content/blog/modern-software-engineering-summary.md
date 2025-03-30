@@ -6,7 +6,7 @@ ShowToc: false
 showTopProgressBar: true
 ---
 
-I recently finished reading *Modern Software Engineering* by Dave Farley and would like to share summaries of the four chapters I found most useful, especially for new software engineers. In my opinion, reading these summaries can serve as a substitute for reading the full chapters. I generated each summary using ChatGPT and then refined them through several iterations to ensure they capture all the main ideas accurately.
+I recently finished reading *Modern Software Engineering* by Dave Farley and would like to share summaries of the five chapters I found most useful, especially for new software engineers. In my opinion, reading these summaries can serve as a substitute for reading the full chapters. I generated each summary using ChatGPT and then refined them through several iterations to ensure they capture all the main ideas accurately.
 
 ## Chapter 4 (Working Iteratively)
 
