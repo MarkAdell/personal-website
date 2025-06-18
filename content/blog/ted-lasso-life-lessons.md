@@ -9,7 +9,7 @@ Following are the life lessons I collected while re-watching *Ted Lasso* Apple T
 - Get comfortable being uncomfortable.
 - Don't take things personally.
 - Be a goldfish.
-- Vulnerability is a strength, not a weakness.
+- Being vulnerable, especially with the right people, is a strength not a weakness.
 - Be accountable for your mistakes.
 - Embrace change.
 - All people are different people.
@@ -29,7 +29,7 @@ Following are the life lessons I collected while re-watching *Ted Lasso* Apple T
 - Opening up and expressing your emotions is important when you have conflicts or disagreements with people who matter to you.
 - We deserve to be loved, whether we have been hurt or have hurt somebody else.
 - You matter, regardless of what you do or don't achieve.
-- Forgiving people will set you free from anger and emotional burdens, and will help you find inner peace.
+- Forgiving people will set you free from anger and negative energy, and will help you find inner peace.
 - Don't worry about something that hasn't happened yet.
 - Stop letting yesterday get in the way of today.
 - Understand that your partner might need occasional alone time, and it doesn't mean they are distancing themselves or losing interest in the relationship.
