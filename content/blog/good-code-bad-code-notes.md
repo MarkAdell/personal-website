@@ -6,7 +6,11 @@ ShowToc: true
 showTopProgressBar: true
 ---
 
+Below are my notes from the book Good Code, Bad Code. These notes are not a summary; they are copied and pasted directly from the book. While these notes cover most of the ideas in the book, it is still recommended to read the book itself, as it contains more in-depth explanations and lots of code examples.
+
 ## Chapter 1 (Code Quality)
+
+### Notes
 
 - There are four high-level goals that I aim to achieve when writing code:
 	1. It should work
@@ -35,6 +39,8 @@ showTopProgressBar: true
 
 ## Chapter 2 (layers of abstraction)
 
+### Notes
+
 - If we do a good job of recursively breaking a problem down into subproblems and creating layers of abstraction, then no individual piece of code will ever seem particularly complicated, because it will be dealing with just a few easily comprehended concepts at a time. This should be our aim when solving a problem as a software engineer: even if the problem is incredibly complicated we can tame it by identifying the subproblems and creating the correct layers of abstraction.
 
 - Building clean and distinct layers of abstraction goes a long way to achieving four of the pillars of code quality
@@ -44,18 +50,18 @@ showTopProgressBar: true
 	-**Testability**: If the code is split cleanly into layers of abstraction, then it becomes a lot easier to fully test the solution to each subproblem.
 - It's often useful to think of the code we write as exposing a mini API that other pieces of code can use. Engineers often do this, and you will likely hear them talking of classes, interfaces, and functions as "exposing an API".
 
-### Functions
+#### Functions
 
 -  A good strategy to try and ensure that functions can be translated into sentences that make sense, is to limit a single function to either of the following:
 	- performing one single task
 	- composing more complex behavior by just calling other well-named functions
 
-### Classes
+#### Classes
 
 - Engineers often debate what the ideal size for a single class is, and many theories and rules of thumb have been put forward such as those that follow:
 	- **Number of lines**: You will sometimes hear guidance such as "a class shouldn't be longer than 300 lines of code."
 		- This rule of thumb does not imply that a class that is 300 lines or fewer is an appropriate size. It serves only as a warning that something might be wrong
-	- **Cohesiveness**: This is a gauge of how well the things inside a class “belong" together, with the idea being that a good class is one that is highly cohesive. A couple of examples cohesiveness are:
+	- **Cohesiveness**: This is a gauge of how well the things inside a class "belong" together, with the idea being that a good class is one that is highly cohesive. A couple of examples cohesiveness are:
 		- Sequential cohesiveness: This occurs when the output of one thing is needed as an input to another thing.
 		- Functional cohesiveness: This occurs when a group of things all contribute towards achieving a single task.
 	- **Separation of concerns**: This is a design principle that advocates that systems should be separated into individual components that each deal with a distinct problem (or concern).
@@ -67,7 +73,7 @@ showTopProgressBar: true
 	- **Testability**: If logic is broken into classes, then it becomes a lot easier to properly test each piece of it.
 - Large classes that do too many things are all too common in a lot of codebases, this often leads to a reduction in code quality. It's good to think carefully when designing a class hierarchy about whether it meets the pillars of code quality that were just discussed. Classes can often grow organically over time to become too big, so it helps to think about these pillars when modifying existing classes, as well as when authoring new ones. Breaking code down into appropriately sized classes is one of the most effective tools for ensuring we have good layers of abstraction, so it's worth spending time and thought on getting it right.
 
-### Interfaces
+#### Interfaces
 
 - If we have more than one implementation for a given abstract layer, or if we think that we will be adding more in the future, then it's usually a good idea to define an interface.
 - Interfaces are an extremely useful tool for creating code that provides clean layers of abstraction. Whenever we need to switch between two or more different concrete implementations for a given subproblem, it's usually best to define an interface to represent the layer of abstraction. This will make our code more modular, and much easier to reconfigure.
@@ -85,6 +91,8 @@ showTopProgressBar: true
 - The problems that come from having layers that are too thick are usually worse than the problems that come from having layers that are too thin. If we're unsure, it can often be best to err on the side of making layers too thin (breaking code into distinct layers).
 
 ## Chapter 3 (Thinking about other engineers)
+
+### Notes
 
 - When writing code, it's useful to consider the following three things:
 	- Things that are obvious to you are not obvious to others
@@ -125,6 +133,8 @@ showTopProgressBar: true
 
 ## Chapter 4 (Errors)
 
+### Notes
+
 - Many errors are not fatal to a piece of software, and there are sensible ways to handle them gracefully and recover. An obvious example of this is if a user provides an invalid input (such as an incorrect phone number); it would not be a great user experience if, upon entering an invalid phone number, the whole application crashed (potentially losing unsaved work). Instead, it's better to just provide the user with a nice error message stating that the phone number is invalid, and ask them to enter a correct one.
 - Examples of errors that we likely want a piece of software to recover from are:
 	- Network errors — if a service that we depend on is unreachable, then it might be best to just wait a few seconds and retry, or else ask the user to check their network connection if our code runs on the user's device.
@@ -160,6 +170,7 @@ When writing code that executes asynchronously, it's common to create a function
 - Compiler warnings can often be a sign that there is something wrong with the code, and in some scenarios this could be quite a serious bug.
 
 ### Summary
+
 - There are broadly two types of error:
 	- Those that a system can recover from
 	- Those that a system cannot recover from
@@ -176,6 +187,8 @@ When writing code that executes asynchronously, it's common to create a function
 Compiler warnings can often flag that something is wrong with the code. It's good to pay attention to them.
 
 ## Chapter 5 (Make code readable)
+
+### Notes
 
 - The essence of readability is ensuring that engineers can quickly and accurately understand what some code does. Actually achieving this often requires being empathetic and trying to imagine how things might be confusing or open to misinterpretation when seen from someone else's point of view.
 - Names are needed to uniquely identify things like classes, functions, and variables. But how we name things is also a great opportunity to make the code more readable by ensuring that things are referred to in a self-explanatory way.
@@ -210,6 +223,8 @@ Compiler warnings can often flag that something is wrong with the code. It's goo
 
 ## Chapter 6 (Avoid surprises)
 
+### Notes
+
 - If we write code that can cause a surprise, we are relying on someone else's diligence to not fall into the trap we have set. At some point this will not happen and someone will fall into it.
 - Avoid returning magic values, returning a magic value carries a risk of causing a surprise, so it's often best to not use them.
 - Returning a magic value is sometimes a conscious decision made by an engineer, but it can also sometimes happen by accident. Regardless of the reason, magic values can easily cause surprises so it's good to be vigilant for scenarios where they can occur. Returning null, optional, or using an error signalling technique are simple and effective alternatives.
@@ -232,6 +247,8 @@ Compiler warnings can often flag that something is wrong with the code. It's goo
 - Testing alone does not make up for code that does surprising things: if another engineer misinterprets our code, then they may also misinterpret what scenarios they need to test.
 
 ## Chapter 7 (Make code hard to misuse)
+
+### Notes
 
 - It's not always possible or appropriate to make things immutable. There are inevitably some parts of our code that have to keep track of changing state, and these will obviously require some kinds of mutable data structures to do this. But, as was just explained, having mutable objects can increase the complexity of the code and lead to problems, so it can often be a good idea to take the default stance that things should be as immutable as possible and make things mutable only where it's necessary.
 - One of the most common ways a class is made mutable is by providing setter functions.
@@ -256,7 +273,7 @@ Using `Pair<Double, Double>` instead of `List<Double>` solves the problem of acc
 - An integer is a very general type and can thus make code easy to misuse when used to represent time like this. 
 - An integer type does absolutely nothing to indicate which units (seconds,  milliseconds) the value is in, or whether it's an instant in time or an amount of time. We can indicate that using a function name, parameter name, or documentation, but this can often still leave it relatively easy to misuse some code.
 - If a user enters a date (like their birthday) and this is interpreted as being a date and time within a local time zone, this can lead to a different date being displayed when a user in a different time zone accesses the information.
-![fig_1](images/fig_1.png)
+![fig_1](/images/gcbc_fig_1.png)
 - A problem similar to that described in the previoud figure can also happen in purely server-side logic if servers are running in different locations and have their systems set to different time zones. For example a server in California might save a date value that a different server in Europe ends up processing.
 - Time-based concepts like instants in time, amounts of time, and dates can be tricky things to work with at the best of times. But we make our own lives and other engineers' lives even harder when we try to represent them using a very general type like an integer. Integers convey very little information about what they mean or represent, and this can make them very easy to misuse. 
 - Solution: Use appropriate data structures for time, either the programming language's built-in libraries for handling time or third-party, opensource libraries.
@@ -280,6 +297,8 @@ Using `Pair<Double, Double>` instead of `List<Double>` solves the problem of acc
 - It's often possible to design and structure code in a way that makes it hard or impossible to misuse. This can greatly reduce the chance of bugs and save engineers a lot of time in the mid- to long-term.
 
 ## Chapter 8 (Make code modular)
+
+### Notes
 
 - One of the main aims of modularity is to create code that can be easily adapted and reconfigured, without having to know exactly how it will need to be adapted or reconfigured. A key goal in achieving this is that different pieces of functionality (or requirements) should map to distinct parts of the codebase.
 - Dependency injection can be an excellent way to make code modular and ensure that it can be adapted to different use cases. Whenever we're dealing with subproblems that might have alternative solutions, this can be particularly useful.
@@ -323,6 +342,8 @@ Using `Pair<Double, Double>` instead of `List<Double>` solves the problem of acc
 
 ## Chapter 9 (Make code reusable and generalizable)
 
+### Notes
+
 - Making assumptions can sometimes result in code that is simpler, more efficient, or both. But assumptions also tend to result in code that is more fragile and less versatile, which can make it less safe to reuse. It's incredibly hard to keep track of exactly which assumptions have been made in which parts of the code, so they can easily turn into nasty traps that other engineers will inadvertently fall into.
 - Optimizing code generally has a cost associated with it: it often takes more time and effort to implement an optimized solution, and the resulting code is often less readable, harder to maintain, and potentially less robust (if assumptions are introduced)
 - In most scenarios, it's better to concentrate on making code readable, maintainable, and robust rather than chasing marginal gains in performance. If a piece of code ends up being run many times and it would be beneficial to optimize it, this can be done later at the point this becomes apparent.
@@ -352,6 +373,8 @@ Using `Pair<Double, Double>` instead of `List<Double>` solves the problem of acc
 - Using global state often makes a particularly costly assumption that results in code that is completely unsafe to reuse. In most scenarios, global state is best avoided.
 
 ## Chapter 10 (Unit testing principles)
+
+### Notes
 
 - Unit testing is concerned with testing distinct units of code in a relatively isolated manner. What exactly we mean by a unit of code can vary, but it often refers to a specific class, function, or file of code.
 - At a practical level, a test case is usually just a function, and for anything other than the simplest of test cases, it's common to divide the code within each of them into three distinct sections as follows:
@@ -408,7 +431,7 @@ class AddressBook {
 }
 ```
 - The public API reflects the most important behavior of the class: looking up an email address given a user ID. But we can't test this unless we set up (or simulate) a `ServerEndPoint`. In addition to this, another important behavior is that repeated calls to `lookupEmailAddress()` with the same user ID don't result in repeated calls to the server. This is not part of the public API (as we defined it), but it's still an important behavior because we don't want our server to get overloaded, and we should therefore test it. Note that the thing we actually care about (and should test) is that repeat requests are not sent to the server. The fact that the class achieves this using a cache is just a means to this end and is, therefore, an implementation detail even to tests. The following figure illustrates the dependencies of the `AddressBook` class and how tests might need to interact with them.
-![fig_1](images/fig_2.jpg)
+![fig_2](/images/gcbc_fig_2.jpg)
 - "Test using only the public API" and "don't test implementation details" are both excellent pieces of advice, but we need to appreciate that they are guiding principles and that their definition can be subjective and context specific. What ultimately matters is that we properly test all the important behaviors of the code, and there may be occasions where we can't do this using only what we consider the public API. But we should still stay alert to the desire to keep tests agnostic to implementation details as much as possible, so we should stray away from the public API only when there really is no alternative.
 - An alternative to using a real dependency is to use a test double. A test double is an object that simulates a dependency, but in a way that makes it more suitable to use in tests.
 - Three common reasons why we might want to use a test double:
@@ -451,6 +474,8 @@ class AddressBook {
 
 
 ## Chapter 11 (Unit testing practices)
+
+### Notes
 
 - It's quite often the case that even a single function can exhibit many different behaviors depending on the values it's called with or the state that the system is in. Writing just one test case per function rarely results in an adequate amount of testing. Instead of concentrating on functions, it's usually more effective to identify all the behaviors that ultimately matter and ensure that there is a test case for each of them.
 - The exercise of thinking up behaviors to test is a great way to spot potential problems with the code.
