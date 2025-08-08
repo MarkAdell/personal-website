@@ -6,7 +6,7 @@ ShowToc: true
 showTopProgressBar: true
 ---
 
-Below are my notes from the book Good Code, Bad Code. These notes are not a summary; they are copied and pasted directly from the book. While these notes cover most of the ideas in the book, it is still recommended to read the book itself, as it contains more in-depth explanations and lots of code examples.
+Below are my notes from the book Good Code, Bad Code. They are copied directly from the book and cover most of the main ideas. In my opinion, they may be sufficient if you don't plan to read the book itself. However, the book provides more in-depth explanations and plenty of code examples.
 
 ## Chapter 1 (Code Quality)
 
