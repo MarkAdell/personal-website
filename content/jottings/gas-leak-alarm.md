@@ -3,6 +3,7 @@ title: Buy a gas leak alarm
 date: 2024-05-02
 tags: ["misc"]
 ShowToc: false
+draft: true
 ---
 
 A gas leak alarm is a small, affordable device designed to detect the presence of gases in an area. Upon detection, it emits a loud alarm. You should place them in your kitchen and other areas where a gas leak can occur. They can be plugged into electrical outlets.
