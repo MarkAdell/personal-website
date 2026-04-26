@@ -186,6 +186,8 @@ class PricingService {
 
 Each test creates its own config and passes it in. The configuration is immutable, so it cannot be changed accidentally by another test or another part of the program.
 
+The same principle applies to environment variables: calling `System.getenv("KEY")` inside a method is global mutable state in disguise. Inject it through a config object instead.
+
 ## 4. Static calls to side-effecting code
 
 ```java
