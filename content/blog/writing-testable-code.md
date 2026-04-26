@@ -1,5 +1,5 @@
 ---
-title: Writing Testable Code: Common Anti-Patterns and How to Fix Them
+title: "Writing Testable Code: Common Anti-Patterns and How to Fix Them"
 date: 2026-04-26
 tags: ["software engineering"]
 ShowToc: false
