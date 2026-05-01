@@ -245,10 +245,10 @@ Please note that pure static helpers are usually not a problem. Static calls bec
 ```java
 class PricingService {
   public double getDiscountedPrice(String userId, double price) throws IOException {
-    URL url = new URL("https://api.example.com/users/" + userId);
+    URL url = new URL("https://membership.example.com/users/" + userId + "/vip-status");
     HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 
-    boolean isVip = conn.getResponseCode() == 200;
+    boolean isVip = Boolean.parseBoolean(readResponseBody(conn));
 
     double discount;
     if (isVip && price >= 200) {
@@ -275,9 +275,9 @@ Separate the HTTP call from the pricing logic:
 ```java
 class UserClient {
   public boolean isVip(String userId) throws IOException {
-    URL url = new URL("https://api.example.com/users/" + userId);
+    URL url = new URL("https://membership.example.com/users/" + userId + "/vip-status");
     HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-    return conn.getResponseCode() == 200;
+    return Boolean.parseBoolean(readResponseBody(conn));
   }
 }
 
