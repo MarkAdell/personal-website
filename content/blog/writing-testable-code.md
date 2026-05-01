@@ -595,7 +595,7 @@ Not every dependency needs to be injected. A useful rule of thumb is: **inject i
 
 Infrastructure is the code that talks to the outside world, such as databases, payment gateways, email services, external APIs, file storage, queues, and caches. You want to be able to swap these in tests.
 
-Pure business logic is the code that does calculations and decisions, such as discount rules, tax math, and validation. You rarely need to replace these in tests. Writing `new DiscountCalculator()` inside a method is usually fine, because there is no good reason to swap it out. If the calculator has a bug, the test catches it. If the calculator is slow or unreliable, that is already a bigger problem.
+Pure business logic is the code that does calculations and decisions. You rarely need to replace these in tests. Writing `new DiscountCalculator()` inside a method is usually fine, because there is no good reason to swap it out. If the calculator has a bug, the test catches it. If the calculator is slow or unreliable, that is already a bigger problem.
 
 ## When to use an interface and when not to
 
