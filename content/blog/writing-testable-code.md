@@ -8,7 +8,7 @@ showTopProgressBar: true
 
 When code is hard to test, it is usually a design problem, not a testing problem. Code becomes difficult to test for the same reasons it becomes difficult to maintain. This article looks at eight common anti-patterns that make code harder to test and how to improve them. There are other anti-patterns, but in my experience writing and reviewing code, these are the most common.
 
-Please note that these anti-patterns mostly hurt unit testing, where the goal is to test pieces of business logic in isolation. Other types of testing, such as integration and end-to-end testing, may be less affected because they test larger parts of the system together.
+Please note that these anti-patterns mostly hurt unit testing, where the goal is to test pieces of business logic in isolation. Other types of testing, such as integration and end-to-end testing, may be less affected because they verify how multiple parts of the system work together.
 
 The advice in this guide is aimed at production codebases that will be maintained over time. Applying it to one-time scripts or throwaway prototypes would be overkill.
 
@@ -434,7 +434,7 @@ Most of that setup and assertion is about Spring details, not invoice calculatio
 
 ### The fix
 
-Keep the controller focused on the HTTP boundary, and move the invoice calculation into application code:
+Keep the controller focused on handling HTTP requests, and move the invoice calculation into a separate service:
 
 ```java
 class InvoiceService {
@@ -493,9 +493,7 @@ class InvoiceController {
 
 ### Why it is now easy to test
 
-`InvoiceService` can be tested without preparing an HTTP request or inspecting a `ResponseEntity`. A test can inject a fake order repository, call `calculateInvoice`, and assert the returned total directly.
-
-Business logic stays in application code. Request handling and responses stay in the framework layer.
+`InvoiceService` can be tested without preparing an HTTP request or inspecting a `ResponseEntity`. A test can inject a mock order repository, call `calculateInvoice`, and assert the returned total directly.
 
 ## 8. Business logic hidden inside a large workflow
 
