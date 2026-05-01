@@ -6,9 +6,9 @@ ShowToc: false
 showTopProgressBar: true
 ---
 
-When code is hard to test, it is usually a design problem, not a testing problem. Code becomes difficult to test for the same reasons it becomes difficult to maintain. This article looks at eight common anti-patterns that make code harder to test and how to improve them. There are other anti-patterns, but in my experience writing and reviewing code, these are the most common.
+When code is hard to test, it is usually a design problem. Code becomes difficult to test for many of the same reasons it becomes difficult to maintain. This guide explores eight common anti-patterns that make code harder to test and shows how to fix them. There are other anti-patterns, but in my experience writing and reviewing code, these are the most common.
 
-Please note that these anti-patterns mostly hurt unit testing, where the goal is to test pieces of business logic in isolation. Other types of testing, such as integration and end-to-end testing, may be less affected because they verify how multiple parts of the system work together.
+These anti-patterns mostly hurt unit testing, where the goal is to test pieces of business logic in isolation. Other types of testing, such as integration and end-to-end testing, may be less affected because they verify how multiple parts of the system work together.
 
 The advice in this guide is aimed at production codebases that will be maintained over time. Applying it to one-time scripts or throwaway prototypes would be overkill.
 
@@ -31,8 +31,8 @@ The advice in this guide is aimed at production codebases that will be maintaine
 
 ## Prerequisite: Terms used in this guide
 
-- **Business logic**: Business logic or Domain logic are the real-world rules that define how application data can be created, stored, changed, and used, separate from infrastructure or UI details.
 - **Infrastructure**: Code that talks to the outside world, such as databases, file storage, external APIs, queues, and caches.
+- **Business logic**: Business logic or Domain logic are the rules that define how the system behaves, separate from infrastructure and UI details.
 - **Dependency**: Something a class or method needs in order to do its work.
 - **Hard-coded dependency**: A dependency created directly inside the code, such as with `new`.
 - **Dependency injection**: Passing a dependency into a class or a method instead of hard-coding it.
@@ -108,7 +108,7 @@ class TokenService {
 
 The method depends on two things that change on every call: the current time and a random number. Because the output is different every time, tests can only check weak things like "token is not null" or "ID starts with `T-`". Those assertions pass even when the code is broken.
 
-This is sometimes called *non-determinism*: given the same input, the function gives you a different result on each call. Non-deterministic code is hard to test.
+This is called *non-determinism*: given the same input, the function gives you a different result on each call. Non-deterministic code is hard to test.
 
 ### The fix
 
@@ -605,7 +605,7 @@ An interface earns its place when you genuinely expect more than one implementat
 
 Payment gateways are the clearest example. Even if you only have one implementation today, there is a good chance you will have another later, either replacing the current one or running alongside it. That is a real need for polymorphism, so an interface makes sense.
 
-In my experience, database repositories usually do not qualify. It is rare to have multiple implementations of your data layer, and if that does happen, the missing interface will be the least of your problems. The real challenge will be data mapping and migration.
+In my experience, database repositories often do not qualify. It is rare to have multiple implementations of your data layer, and if that does happen, the missing interface will be the least of your problems. The real challenge will be data mapping and migration.
 
 A better rule than "every dependency needs an interface" is this: any dependency that must be replaceable should provide a clear way to replace it.
 
