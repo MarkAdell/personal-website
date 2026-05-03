@@ -4,6 +4,7 @@ date: 2024-11-18
 tags: ["software engineering"]
 ShowToc: false
 showTopProgressBar: true
+draft: true
 ---
 
 In software engineering, "Make it work, then make it better" is a pragmatic approach to development. It stresses the importance of first building a working solution before refining and optimizing it. It consists of two phases: 
